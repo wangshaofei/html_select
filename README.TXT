@@ -1,5 +1,5 @@
-这是一个jquery拓展，用来模拟html的select控件。
+this is a jquery extends.
 
-原始的html的select控件的样式比较单一。
+the style of html select is simple.
 
-这个控件可以修改样式。
+and the extends make the select can change the style in your ways.
