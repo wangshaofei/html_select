@@ -6,11 +6,19 @@
     <title>test html select in jquery extends</title>
 </head>
 <body>
+    <h2>模拟传统的html的select控件</h2>
     <div>
-        模拟传统的html的select控件。<br>
-           由于传统的select控件的样式根据浏览器的变化而变化，不能做到样式统一。<br>
-           通过这个插件可以做到兼容ie8 firefox chrome浏览器。样式统一。<br>
-           而且下拉框的样式可以自定义。如果数据很多还可以设置成多行。
+        <dl>
+            <dt>1、重新定义select控件 和下拉框的样式，跨浏览器样式不变。</dt>
+                <dd> chrome firefox ie8</dd>
+            <dt>2、提交表单时还是提交的select的值。</dt>
+            <dt>3、使用简单。</dt>
+            <dd><pre>$('#select的id').dropDown({
+                'class' : 自定义的样式的class，
+                'callback' : 回调函数
+            })</pre><dd>
+        </dl>
+
     </div>
 	<div class="wrapdiv">
         <table>
