@@ -1,3 +1,5 @@
+ul,li{margin: 0px; padding: 0px;}
+.hide{display: none;}
 .wrapdiv {height:500px;width:300px; padding: 20px;  border: 1px solid black;}  
 .div_model {position: absolute; border: 1px solid #ccc; padding: 5px; background: white;width: 300px;height: 200px;overflow: auto;}    
 .div_model ul ,.div_model ul li {list-style: none; margin: 0; padding: 0;}    
@@ -6,3 +8,19 @@
 .input_text_city {width:86px; margin-right:12px;}  
 .select{background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAGCAMAAAArBzSwAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIFdpbmRvd3MiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NTQzMzEyNjVDMjhGMTFFMkIxQjBFN0MyOTMyNTYzN0UiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NTQzMzEyNjZDMjhGMTFFMkIxQjBFN0MyOTMyNTYzN0UiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo1NDMzMTI2M0MyOEYxMUUyQjFCMEU3QzI5MzI1NjM3RSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo1NDMzMTI2NEMyOEYxMUUyQjFCMEU3QzI5MzI1NjM3RSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pgh6wScAAABFUExURXZ1c9bW1oqKirGvsPHx8Wtpar6+vq+vr4SEhHRzcfX08/7+/qinpdPS0I6Ni+Lh4Gtra2xqa/39/WxraWtqaP///////7wS/CgAAAAXdFJOU/////////////////////////////8A5kDmXgAAAEJJREFUeNosyFkCgCAMA1HcdwWS5v5HtWjn703qcikkkBeTl2yYQJB91WcdtxPbaGHtycf1s9ke8Aw2y+a1BvUKMAArlgaEjk4vogAAAABJRU5ErkJggg==) no-repeat right center;}  
 .input_text{border:1px solid #cccccc;height:32px;width:190px;}  
+
+/* 清楚浮动 */
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }  
+.clearfix { display: inline-block; }   
+html[xmlns] .clearfix { display: block; }  
+* html .clearfix { height: 1%; }  
+
+/* 年龄 */
+.div_model.age {border-radius: 10px; padding: 10px;width: 297px;height: 178px;height: 180px\9;}
+.div_model.age div {border-top: 1px #ccc solid;border-left: 1px #ccc solid;}
+.div_model.age li {border-right:1px #ccc solid; border-bottom: 1px solid #ccc;padding: 5px 10px;margin: 0px;}
+
+/* 身高 */
+.div_model.height {border-radius: 10px; padding: 10px;width: 226px;height: 178px;height: 180px\9;}
+.div_model.height div {border-top: 1px #ccc solid;border-left: 1px #ccc solid;}
+.div_model.height li {border-right:1px #ccc solid; border-bottom: 1px solid #ccc;padding: 5px 10px;margin: 0px;}
